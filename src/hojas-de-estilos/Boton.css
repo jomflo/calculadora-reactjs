@@ -1,0 +1,28 @@
+.boton-contenedor {
+    height: 50px;
+    display: flex;
+    /* flex: 1 1; para que los elementos tengan el mismo ancho , si hay 2 toman 50% cada uno, si hay 4 entonces 25% cada uno */
+    flex: 1 1;
+    justify-content: center;
+    align-items: center;
+    color: #8f8f8f;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: #0a0a0a;
+    margin: 2px 1px 0 1px;
+    cursor: pointer;
+    user-select: none;
+    /*  user-select: none;    se utiliza para evitar que el texto del boton se pueda seleccionar*/
+}
+
+.boton-contenedor:hover {
+    background-color: #575558;
+}
+
+.operador {
+    background-color: rgba(100, 100, 100, 0.2);
+}
+
+.operador:hover {
+    background-color: rgba(136, 132, 132, 0.5);
+}

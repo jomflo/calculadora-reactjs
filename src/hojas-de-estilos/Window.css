@@ -1,0 +1,35 @@
+.window {
+    height: 75px;
+    border-radius: 15px;
+    /* border: 1px solid gray; */
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    flex: 1 1;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: transparent;
+    color: #bebcbc;
+    padding: 11px;
+    margin: 1px solid #888;
+    /* box-shadow: -1px 4px 1px 1px white; */
+}
+
+.pantalla {
+    display: flex;
+    justify-content: flex-end;
+    min-width: 90%;
+    min-height: 50%;
+}
+
+.pantallaResultado {
+    display: flex;
+    justify-content: flex-end;
+    min-height: 50%;
+    min-width: 90%;
+    user-select: none;
+    font-size: 13px;
+}
