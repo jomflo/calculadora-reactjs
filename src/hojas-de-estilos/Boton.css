@@ -9,7 +9,7 @@
     font-weight: bold;
     font-size: 30px;
     background-color: #0a0a0a;
-    margin: 2px 1px 0 1px;
+    margin: 1px;
     cursor: pointer;
     user-select: none;
     /*  user-select: none;    se utiliza para evitar que el texto del boton se pueda seleccionar*/
